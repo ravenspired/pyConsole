@@ -12,7 +12,7 @@ consoleSetup(False, True, True, True)
 #Set up the console. Each boolean controls whether an aspect of the console
 #should be displayed. The syntax is as follows: 
 # consoleSetup(display_info, display_ok, display_warning, display_error)
-#A few notes: The values passed should all be integers.
+#A few notes: The values passed should all be booleans with a value of either True or False.
 #Failing to setup the console will have it default to display everything.
 
 
